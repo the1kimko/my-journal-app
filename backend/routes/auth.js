@@ -1,6 +1,6 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs');
+const bcrypt = require('../node_modules/bcryptjs/umd');
 const { SECRET } = require('../middleware/auth');
 
 const router = express.Router();
